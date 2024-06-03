@@ -1,7 +1,7 @@
 import { tab } from '@testing-library/user-event/dist/tab';
 import React, { Component, useState } from 'react';
 
-function Counter({cities, onSelectedChange}) {
+function Counter({cities, onSelectedItem}) {
     const [state, setState] = useState({
         count: 0,
     });
@@ -9,7 +9,6 @@ function Counter({cities, onSelectedChange}) {
     const style = {
         fontSize: 50
     }
-     
     const GetBadgeClassesMethod=()=> {
         let classes = "badge m-2 text-bg-";
         classes += state.count === 0 ? "warning" : "primary";
@@ -25,7 +24,7 @@ function Counter({cities, onSelectedChange}) {
 
         return (
             <ul className='list-group'>
-                {cities.name.map((tab, index) => <li key={tab} className={selectedIndex === index ? 'list-group-item active' : 'list-group-item'} onClick={() => setSelectedIndex(index)}>{tab}</li>)}
+                {cities.name.map((tab, index) => <li key={tab} className={selectedIndex === index ? 'list-group-item active' : 'list-group-item'} onClick={() => { onSelectedItem(tab); setSelectedIndex(index) }}>{tab}</li>)}
             </ul>
         )
     }

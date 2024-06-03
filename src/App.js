@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Counter from './Components/counter';
+import Alert from './Components/alert';
+import Button from './Components/button';
 
 function App() {
   let Citys = {
@@ -8,10 +10,16 @@ function App() {
   }
 
   return (
-    <><Counter cities={Citys} onSelectedChange={onSelectedChange}></Counter></>
+    <>
+    <Button color='primary' onClick={() => alert('Clicked')}>Click me</Button>
+    <Alert >
+      <span>Hello world</span>
+    </Alert>
+    <Counter cities={Citys} onSelectedItem={onSelectedItem}></Counter>
+    </>
   );
 }
-function onSelectedChange(){
-
+function onSelectedItem(city){
+  console.log(city);
 }
 export default App;
