@@ -5,6 +5,7 @@ import { Link, useLocation } from 'react-router-dom'
 import Button from './Button'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaX } from "react-icons/fa6";
+import NavLink from './NavLink'
 
 const Navbar = () => {
     const pathName = useLocation();
@@ -26,9 +27,9 @@ const Navbar = () => {
         setOpenNavigation(false);
     };
     const changeColor = () => {
-        if(window.scrollY >= 85)
+        if (window.scrollY >= 85)
             setColor(true)
-        else{
+        else {
             setColor(false)
         }
     }
@@ -46,20 +47,23 @@ const Navbar = () => {
                         <div className='relative z-2 flex flex-col items-center justify-between
                         lg:flex-row lg:items-end'>
                             {navigation.map((item) => {
-                                return <Link key={item.id}
-                                    to={item.url}
-                                    className={`block relative font-code text-2xl uppercase transition-colors hover:text-color-1 px-6 py-6 md:py-8 lg:-mr-0.25 lg:font-semibold ${item.url === pathName.pathname
+                                return (
+                                    <NavLink key={item.id} className={`${item.url === pathName.pathname
                                         ? "z-2 text-color-1"
                                         : "text-n-1"
-                                        } lg:leading-5 lg:hover:text-color-1 xl:px-12 lg:text-xl`} onClick={handleClick}>
-                                    {item.title}
-                                </Link>
+                                        }`}
+                                        href={item.url} onClick={handleClick}>
+                                        {item.title}
+                                    </NavLink>
+                                )
+
                             })}
                         </div>
                     </nav>
                     <Button className='lg:hidden'
                         px="px-3"
                         onClick={toggleNavigation}
+                        dark={true}
                     >
                         {openNavigation ? <FaX /> : <RxHamburgerMenu />}
                     </Button>

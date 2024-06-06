@@ -1,18 +1,33 @@
 import React from 'react'
-import Button from './Button'
-import { FaFacebookF } from "react-icons/fa6";
+import { footer } from '../constants/constants'
+import NavLink from './NavLink'
 
 const Footer = () => {
   return (
     <>
-      <div>
-        <div>
-          tessd
-          <img src="" alt="" />
+      <div className='px-7.5 pt-12 pb-6 lg:px-10 lg:pt-14 lg:pb-7 xl:pt-20 xl:pb-12'>
+        <div className='md:order-1 mb-5 md:mb-0 w-10/12 max-w-lg mx-auto'>
+          <img src={footer.logoUrl} alt='about' className='rounded-md h-full w-full object-cover object-center' />
         </div>
-        <div>
-          <Button isIconLink={true}><FaFacebookF /></Button>
+        <div className='flex justify-center flex-wrap'>
+          {footer.socials.map((item) => {
+            return (
+              <NavLink href={item.link} key={item.id} className='text-left md:text-2xl lg:text-3xl xl:text-3xl'>
+                {item.icon}
+              </NavLink>
+            )
+          })}
         </div>
+        <div className='flex justify-center flex-wrap mt-5 md:mt-0'>
+          {footer.navItems.map((item) => {
+            return (
+              <NavLink href={item.link} key={item.id} className='text-left text-xl lg:font-medium py-4'>
+                {item.title}
+              </NavLink>
+            )
+          })}
+        </div>
+        <p className='text-center text-xs mt-10'>Copyright © 2024 96K Live - All rights reserved || Designed By: 96K Live</p>
       </div>
     </>
 

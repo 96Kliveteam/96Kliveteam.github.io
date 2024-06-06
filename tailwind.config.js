@@ -76,6 +76,21 @@ export default {
       aspectRatio: {
         '21/9': '21 / 9',
       },
+      keyframes: {
+        glow: {
+          'from': { 
+            'text-shadow': '0 0 20px #b39b00',
+            'filter': 'brightness(0.75)'
+          },
+          'to' : { 
+            'text-shadow': '0 0 20px #e5ff00',
+            'filter': 'brightness(1.5)' 
+          },
+        }
+      },
+      animation: {
+        glow: 'glow 2s ease-in-out infinite alternate',
+      }
     },
   },
   plugins: [

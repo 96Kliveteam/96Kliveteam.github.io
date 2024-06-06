@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-function Button({ children, onClick, className, href, dark, isIconLink }) {
+function Button({ children, onClick, className, href, dark }) {
 
     const renderDarkButton = () => (
         <button onClick={onClick} className={`shadow-md shadow-color-2 border-2 border-color-2 p-3 rounded text-color-1 
-        hover:text-color-1 hover:border-color-1 hover:brightness-125 hover:-translate-y-1
+        hover:text-n-9 hover:bg-color-1 hover:border-color-1 hover:brightness-125 hover:-translate-y-1
         active:translate-y-0 active:shadow-none
         transition-all ${className || ''}`}>
             {children}
