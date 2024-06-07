@@ -1,4 +1,4 @@
-import { Outlet} from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import './App.css';
 import Footer from './Components/Footer';
 
@@ -10,4 +10,5 @@ function App() {
     </>
   );
 }
+
 export default App;

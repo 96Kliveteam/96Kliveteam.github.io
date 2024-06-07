@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FaAngleLeft, FaAngleRight, FaCircle } from "react-icons/fa6";
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 import Button from './Button';
 
 const Carousel = ({ children: slides,
@@ -21,12 +21,12 @@ const Carousel = ({ children: slides,
     }, [])
 
     return (
-        <div className="overflow-hidden relative h-[540px]">
+        <div className="overflow-hidden relative pb-12">
             <div className="h-full flex transition-transform ease-out duration-500"
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                 {slides}
             </div>
-            <div className="absolute inset-0 flex items-center justify-between">
+            <div className="absolute inset-0 flex items-center justify-between pb-12">
                 <Button onClick={prev}
                     className="p-0.5 rounded-full bg-white/80">
                     <FaAngleLeft/>

@@ -28,8 +28,8 @@ export default {
           7: "#15131D",
           8: "#0E0C15",
           9: "#0f0b0b",
-          10: "#474060",
-          11: "#43435C",
+          10: "#584141",
+          11: "#936c6c",
           12: "#1B1B2E",
           13: "#2E2A41",
           14: "#6C7275",
@@ -83,7 +83,7 @@ export default {
             'filter': 'brightness(0.75)'
           },
           'to' : { 
-            'text-shadow': '0 0 20px #e5ff00',
+            'text-shadow': '0 0 30px #edff4d',
             'filter': 'brightness(1.5)' 
           },
         }
