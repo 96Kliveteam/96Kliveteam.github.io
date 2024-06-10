@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
             </Section >
             <Section id='about'>
-                <div className='grid grid-col-1 md:grid-cols-2 gap-x-10'>
+                <div className='grid grid-col-1 md:grid-cols-2 gap-x-15'>
                     <div className='flex flex-col justify-between items-start order-1 py-5'>
                         <div className='mb-10'>
                             <h2 className='text-color-1 text-4xl md:text-5xl text-center mb-5 lg:mb-10'>About</h2>

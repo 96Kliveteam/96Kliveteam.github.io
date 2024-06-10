@@ -5,13 +5,14 @@ import { about_OurPeople, about_Sliders, about_WhoWeAre, about_WhatWeDo } from '
 import Section from '../Components/Section'
 import Carousel from '../Components/Carousel'
 import Button from '../Components/Button'
+import Card from '../Components/Card'
 
 const About = () => {
     return (
         <>
             <Header bacgroundImageUrl={bacgroundImageUrl}></Header>
             <Section id='whatwedo' className='bg-white'>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-x-15'>
                     <div className='flex flex-col justify-center'>
                         <h2 className='text-n-9 text-4xl md:text-5xl text-center mb-5 lg:mb-10'>What we do</h2>
                         <div className='mt-10 md:hidden'>
@@ -20,7 +21,9 @@ const About = () => {
                         <div>
                             {about_WhatWeDo.part_1.content.map((item) => {
                                 return (
-                                    <p key={item.id} className='text-center mt-10 text-n-9'>{item.text}</p>
+                                    <p key={item.id} className='text-center mt-10 text-n-9'>
+                                        {item.text}
+                                    </p>
                                 )
                             })}
                         </div>
@@ -29,7 +32,7 @@ const About = () => {
                         <img src={about_WhatWeDo.part_1.imgUrl} alt="" className='rounded-md h-full w-full object-cover object-center' />
                     </div>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 mt-20'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-x-15 mt-20'>
                     <div className='h-52 md:h-auto'>
                         <img src={about_WhatWeDo.part_2.imgUrl_2} alt="" className='rounded-md h-full w-full object-cover object-center' />
                     </div>
@@ -48,7 +51,7 @@ const About = () => {
                 </div>
             </Section>
             <Section id='whoweare'>
-                <div className='md:grid md:grid-cols-2 gap-x-10'>
+                <div className='md:grid md:grid-cols-2 gap-x-15'>
                     <div className='py-10'>
                         <h2 className='text-color-1 text-4xl md:text-5xl text-center mb-5 lg:mb-10'>Who we are</h2>
                         <div>
@@ -67,10 +70,10 @@ const About = () => {
             <Section id='ourpeople'>
                 <div>
                     <h2 className='text-color-1 text-4xl md:text-5xl text-center mb-5 lg:mb-10'>Our People</h2>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-x-5 xl:gap-x-10'>
+                    <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:gap-x-10'>
                         {about_OurPeople.map((item) => {
                             return (
-                                <div key={item.id} className='shadow-lg shadow-color-2 hover:shadow-color-1 h-min md:h-auto mt-10 md:mb-0 md:mt-0 rounded-md bg-white text-n-9'>
+                                <Card key={item.id}>
                                     <div className='h-64 md:h-auto'>
                                         <img src={about_WhoWeAre.imgUrl} alt="" className='rounded-md h-full w-full object-cover object-center' />
                                     </div>
@@ -80,13 +83,14 @@ const About = () => {
                                         <div className='mt-3'>
                                             {item.profiles.map((subItem) => {
                                                 return (
-                                                    <p className='mt-1 text-sm' key={subItem.id}>{subItem.text}
+                                                    <p className='mt-1 text-sm' key={subItem.id}>
+                                                        {subItem.text}
                                                     </p>
                                                 )
                                             })}
                                         </div>
                                     </div>
-                                </div>
+                                </Card>
                             )
                         })}
                     </div>

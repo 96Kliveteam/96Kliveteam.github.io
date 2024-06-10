@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='flex justify-center flex-wrap'>
           {footer.socials.map((item) => {
             return (
-              <NavLink href={item.link} key={item.id} className='text-left md:text-3xl lg:text-3xl xl:text-3xl'>
+              <NavLink href={item.link} key={item.id} className='md:text-3xl lg:text-4xl xl:text-4xl xl:leading-5'>
                 {item.icon}
               </NavLink>
             )
@@ -21,7 +21,7 @@ const Footer = () => {
         <div className='flex justify-center flex-wrap mt-5 md:mt-0'>
           {footer.navItems.map((item) => {
             return (
-              <NavLink href={item.link} key={item.id} className='text-left text-lg lg:font-medium py-4'>
+              <NavLink href={item.link} key={item.id} className='text-lg lg:font-medium xl:px-5 py-4'>
                 {item.title}
               </NavLink>
             )

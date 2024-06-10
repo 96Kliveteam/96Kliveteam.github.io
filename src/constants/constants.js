@@ -13,6 +13,11 @@ import ourPeople_ImgUrl from '../assets/10NAMNHINLAI.jpeg'
 import ourPeople_2ImgUrl from '../assets/10NAMNHINLAI.jpeg'
 import ourPeople_3ImgUrl from '../assets/10NAMNHINLAI.jpeg'
 
+//Service
+import hireService_ImgUrl from '../assets/10NAMNHINLAI.jpeg'
+import hireService_3ImgUrl from '../assets/10NAMNHINLAI.jpeg'
+import hireService_2ImgUrl from '../assets/10NAMNHINLAI.jpeg'
+
 //Footer
 import footerImgUrl from '../assets/Copy of WALL.png'
 
@@ -184,7 +189,7 @@ export const about_WhatWeDo = {
 }
 
 export const about_WhoWeAre = {
-    content: [ {
+    content: [{
         id: '0',
         text: '96K Live is a group of likeminded industry professionals, old enough to have extensive experience and young enough to have the drive to create something new. We have varying skillsets and specialities which makes our team highly proficient in a broad range of activities across the pro-audio space, and experts in delivering for our customer base.'
     },
@@ -211,8 +216,8 @@ export const about_OurPeople = [
     {
         id: '0',
         imgAvatar: ourPeople_ImgUrl,
-        name:'Phu Le (FOH Engineer/Founder)',
-        title:'Freelancer FOH/System Designer',
+        name: 'Phu Le (FOH Engineer/Founder)',
+        title: 'Freelancer FOH/System Designer',
         profiles: [{
             id: '0',
             text: 'Was the FOH Engineer at Musicaland 2024',
@@ -237,8 +242,8 @@ export const about_OurPeople = [
     {
         id: '2',
         imgAvatar: ourPeople_2ImgUrl,
-        name:'NGUYEN LE',
-        title:'Project Manager/Backstage Engineer',
+        name: 'NGUYEN LE',
+        title: 'Project Manager/Backstage Engineer',
         profiles: [{
             id: '0',
             text: 'Was the Stage Technician at Cam by 8 2024',
@@ -267,8 +272,8 @@ export const about_OurPeople = [
     {
         id: '3',
         imgAvatar: ourPeople_3ImgUrl,
-        name:'PHAM TRAN HOANG LONG',
-        title:'Audio Technician, RF Manager',
+        name: 'PHAM TRAN HOANG LONG',
+        title: 'Audio Technician, RF Manager',
         profiles: [{
             id: '0',
             text: 'Was the FOH Supporter at Musicaland 2024',
@@ -297,3 +302,80 @@ export const about_Sliders = [
         text: '"We are very excited by what the future holds. We believe that actions speak louder than words and so look forward to demonstrating to the market our capability as we take on the exciting opportunities that 2024 has to offer."'
     }
 ]
+
+export const service_Hire = [
+    {
+        id: '0',
+        text: '96K Live offers a bespoke hire service to touring clients. We offer tailored packages to suit the needs of your touring production. We are focussed on delivering the best quality packages and understand that this is driven through our attention to detail, our support and the development of our own proprietary solutions and infrastructure.'
+    },
+    {
+        id: '1',
+        text: 'The 96K Live management team has extensive experience on delivering for all types of events and can offer advice and service in relation to all audio related requirements.'
+    }
+]
+
+export const service_HireService = {
+    catories: [
+        {
+            id: '0',
+            title: 'Events',
+            text: '96K Live provide audio solutions for all types of events.',
+            imgUrl: hireService_ImgUrl
+        },
+        {
+            id: '1',
+            title: 'Backline',
+            text: '96K Live provide stage gears for all types of band.',
+            imgUrl: hireService_2ImgUrl
+        },
+        {
+            id: '2',
+            title: 'Audio Production',
+            text: '96K Live offer tailored packages to meet the demands of your show production.',
+            imgUrl: hireService_3ImgUrl
+        }
+    ],
+    btnText: 'Contact Us',
+    btnLink: '/'
+}
+
+export const service_HireStock = {
+    catories: [
+        {
+            id: '0',
+            title: 'Events',
+            imgUrl: hireService_ImgUrl
+        },
+        {
+            id: '1',
+            title: 'Backline',
+            imgUrl: hireService_2ImgUrl
+        },
+        {
+            id: '2',
+            title: 'Audio Production',
+            imgUrl: hireService_3ImgUrl
+        }],
+    btnText: 'Contact Us',
+    btnLink: '/'
+}
+export const contact = {
+    address: '891/107/15 Đ. Nguyễn Kiệm, Phường 3, Gò Vấp, Thành phố Hồ Chí Minh 70000',
+    email: '96kliveteam.co@gmail.com',
+    mobileNo: '+44 (0)121 740 0022',
+    socials: [{
+        id: '0',
+        link: '/',
+        icon: <FaFacebookF />
+    },
+    {
+        id: '1',
+        link: '/',
+        icon: <FaInstagram />
+    },
+    {
+        id: '2',
+        link: '/',
+        icon: <FaTiktok />
+    }],
+}

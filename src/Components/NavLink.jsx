@@ -6,7 +6,7 @@ const NavLink = ({ href, className, children, onClick }) => {
     <Link to={href}
       className={`block relative font-code text-2xl transition-colors 
     hover:text-color-1 px-6 py-6 md:py-8 lg:-mr-0.25 lg:font-semibold 
-    lg:leading-5 xl:px-12 lg:text-xl ${className || ''}`}
+     xl:px-12 lg:text-xl lg:leading-5 ${className || ''}`}
       onClick={onClick}>
       {children}
     </Link>
