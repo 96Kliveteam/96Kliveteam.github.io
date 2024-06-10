@@ -361,31 +361,26 @@ export const service_HireStock = {
 }
 
 export const service_BuyNew = {
-    accordions: [
-        {
-            id: '0',
-            title: 'Events',
-            answer: [
-               `We anticipate our sales opportunities will grow as we broaden our customer base and we aim to be able to deliver on the demands of our customers as requested.`,
-               `We expect to develop resale opportunities as we establish ourselves initially as a Hire company and will look to resell a selection of specialist products that we utilise for our own hire requirements.`
-            ]
-        },
-        {
-            id: '1',
-            title: 'Events',
-            answer: [
-               `We anticipate our sales opportunities will grow as we broaden our customer base and we aim to be able to deliver on the demands of our customers as requested.`,
-               `We expect to develop resale opportunities as we establish ourselves initially as a Hire company and will look to resell a selection of specialist products that we utilise for our own hire requirements.`
-            ]
-        },
-        {
-            id: '2',
-            title: 'Events',
-            answer: [
-               `We anticipate our sales opportunities will grow as we broaden our customer base and we aim to be able to deliver on the demands of our customers as requested.`,
-               `We expect to develop resale opportunities as we establish ourselves initially as a Hire company and will look to resell a selection of specialist products that we utilise for our own hire requirements.`
-            ]
-        }],
+    accordions: [{
+        id: '0',
+        title: 'Boutique Service',
+        answer: [
+           `We anticipate our sales opportunities will grow as we broaden our customer base and we aim to be able to deliver on the demands of our customers as requested.`,
+           `We expect to develop resale opportunities as we establish ourselves initially as a Hire company and will look to resell a selection of specialist products that we utilise for our own hire requirements.`,
+           `As is the case when operating at this end of the market we will aim to offer a high-end service, providing expert advice, tour packaging solutions, and provide opportunity for product demonstration.`,
+           `Being users of the products we sell and having already developed our own packaging solutions means we can provide a tailored service to customers buying for their own touring and rental requirements.`
+        ]
+    }],
+    accordions2: [{
+        id: '0',
+        title: 'Our Offerings',
+        answer: [
+            `Part exchange of professional audio equipment (assessed on a case by case basis)`,
+            `Asset finance assistance through third party lenders`,
+            `ALong-term rental options for venues Package promotions`
+        ]
+    }],
+    text: 'The 96K Live team have experience not only of operating in the world of hiring equipment, but also supplying pro-audio kit for resale, and act as a dealer for many of our core brands.',
     btnText: 'Contact Us',
     btnLink: '/'
 }
