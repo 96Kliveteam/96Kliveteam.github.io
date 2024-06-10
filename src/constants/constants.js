@@ -359,6 +359,37 @@ export const service_HireStock = {
     btnText: 'Contact Us',
     btnLink: '/'
 }
+
+export const service_BuyNew = {
+    accordions: [
+        {
+            id: '0',
+            title: 'Events',
+            answer: [
+               `We anticipate our sales opportunities will grow as we broaden our customer base and we aim to be able to deliver on the demands of our customers as requested.`,
+               `We expect to develop resale opportunities as we establish ourselves initially as a Hire company and will look to resell a selection of specialist products that we utilise for our own hire requirements.`
+            ]
+        },
+        {
+            id: '1',
+            title: 'Events',
+            answer: [
+               `We anticipate our sales opportunities will grow as we broaden our customer base and we aim to be able to deliver on the demands of our customers as requested.`,
+               `We expect to develop resale opportunities as we establish ourselves initially as a Hire company and will look to resell a selection of specialist products that we utilise for our own hire requirements.`
+            ]
+        },
+        {
+            id: '2',
+            title: 'Events',
+            answer: [
+               `We anticipate our sales opportunities will grow as we broaden our customer base and we aim to be able to deliver on the demands of our customers as requested.`,
+               `We expect to develop resale opportunities as we establish ourselves initially as a Hire company and will look to resell a selection of specialist products that we utilise for our own hire requirements.`
+            ]
+        }],
+    btnText: 'Contact Us',
+    btnLink: '/'
+}
+
 export const contact = {
     address: '891/107/15 Đ. Nguyễn Kiệm, Phường 3, Gò Vấp, Thành phố Hồ Chí Minh 70000',
     email: '96kliveteam.co@gmail.com',

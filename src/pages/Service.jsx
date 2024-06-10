@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Components/Header'
 import bacgroundImageUrl from '../assets/CHHTOUR.jpg'
 import Section from '../Components/Section'
-import { service_Hire, service_HireService, service_HireStock } from '../constants/constants'
+import { service_BuyNew, service_Hire, service_HireService, service_HireStock } from '../constants/constants'
 import Card from '../Components/Card'
 import Button from '../Components/Button'
 import Collapse from '../Components/Collapse'
@@ -26,7 +26,6 @@ const Service = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                     {service_HireService.catories.map((item) => {
                         return (
-                            <>
                                 <Card key={item.id} className='pt-5 flex flex-col justify-between'>
                                     <div>
                                         <h4 className='text-center text-xl'>{item.title}</h4>
@@ -35,7 +34,7 @@ const Service = () => {
                                     <div>
                                         <img src={item.imgUrl} alt="" className='rounded-md h-full w-full object-cover object-center' />
                                     </div>
-                                </Card></>
+                                </Card>
                         )
                     })}
                 </div>
@@ -48,14 +47,12 @@ const Service = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                     {service_HireStock.catories.map((item) => {
                         return (
-                            <>
-                                <Card key={item.id} className='pt-5 flex flex-col justify-between' dark={true}>
+                            <Card key={item.id} className='pt-5 flex flex-col justify-between' dark={true}>
                                     <h4 className='text-center text-xl text-color-1 mb-5'>{item.title}</h4>
                                     <div>
                                         <img src={item.imgUrl} alt="" className='rounded-md h-full w-full object-cover object-center' />
                                     </div>
                                 </Card>
-                            </>
                         )
                     })}
                 </div>
@@ -64,7 +61,7 @@ const Service = () => {
                 </div>
             </Section>
             <Section>
-                <Collapse></Collapse>
+                <Collapse data={service_BuyNew.accordions}></Collapse>
             </Section>
         </>
     )

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../assets/Logo.png'
 import { navigation } from '../constants/constants'
-import { Link, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import Button from './Button'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaX } from "react-icons/fa6";
