@@ -78,7 +78,7 @@ const About = () => {
             <Section id='ourpeople'>
                 <div>
                     <h2 className='text-color-1 text-4xl md:text-5xl text-center mb-5 lg:mb-10'>Our People</h2>
-                    <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:gap-x-10'>
+                    <div className='grid grid-cols-1 gap-10 mt-10 lg:mt-15 md:grid-cols-2 lg:grid-cols-3 xl:gap-x-10'>
                         {about_OurPeople.map((item, index) => {
                             return (
                                 <Card key={index}>

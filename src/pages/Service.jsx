@@ -42,7 +42,7 @@ const Service = () => {
                                     <h4 className='text-center text-xl'>{item.title}</h4>
                                     <p className='text-center my-3 px-2'>{item.text}</p>
                                 </div>
-                                <div className='max-h-96 p-5'>
+                                <div className='lg:max-h-96 p-5'>
                                     <img src={item.imgUrl} alt="" className='rounded-md h-full w-full object-cover object-center' />
                                 </div>
                             </Card>
@@ -60,7 +60,7 @@ const Service = () => {
                         return (
                             <Card key={index} className='pt-5 flex flex-col justify-between' dark={true}>
                                 <h4 className='text-center text-xl text-color-1 mb-5'>{item.title}</h4>
-                                <div className='max-h-96 p-5'>
+                                <div className='h-[360px] p-5'>
                                     <img src={item.imgUrl} alt="" className='rounded-md h-full w-full object-cover object-center' />
                                 </div>
                             </Card>
