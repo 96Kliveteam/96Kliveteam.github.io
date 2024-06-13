@@ -16,8 +16,8 @@ const Carousel = ({ children: slides,
 
     useEffect(() => {
         if (!autoSlide) return
-        const slideInterval = setInterval(next, autoSlideInterval)
-        return () => clearInterval(slideInterval)
+        const interval = setInterval(next, autoSlideInterval)
+        return () => clearInterval(interval)
     }, [])
 
     return (

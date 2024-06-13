@@ -36,7 +36,7 @@ const Navbar = () => {
     window.addEventListener('scroll', changeColor)
     return (
         <>
-            <div className={`fixed top-0 left-0 z-50 w-full border-b-2 border-n-15 transition-all ${color ? 'bg-n-9' : ''}`}>
+            <div className={`fixed top-0 left-0 z-20 w-full border-b-2 border-n-15 transition-all ${color ? 'bg-n-9' : ''}`}>
                 <div className='flex items-center justify-between px-5 
                 lg:px-7.5 xl:px-10 max-lg:py-4'>
                     <a href="home" className='block w-[12rem]'>
@@ -46,9 +46,9 @@ const Navbar = () => {
                     lg:static lg:flex`}>
                         <div className='relative z-2 flex flex-col items-center justify-between
                         lg:flex-row lg:items-end'>
-                            {navigation.map((item) => {
+                            {navigation.map((item, index) => {
                                 return (
-                                    <NavLink key={item.id} className={`${item.url === pathName.pathname
+                                    <NavLink key={index} className={`${item.url === pathName.pathname
                                         ? "z-2 text-color-1"
                                         : "text-n-1"
                                         }`}

@@ -11,7 +11,7 @@ const Header = ({ bacgroundImageUrl }) => {
                             
             <Navbar></Navbar>
             <h2 className="px-7.5 lg:px-10 w-full text-center uppercase absolute left-2/4 top-[45%] -translate-x-2/4 -translate-y-2/4 
-            text-color-1 z-40 animate-glow leading-loose text-2xl tracking-wide
+            text-color-1 z-10 animate-glow leading-loose text-2xl tracking-wide
             md:text-4xl md:leading-loose
             lg:text-5xl lg:leading-loose
             xl:text-6xl xl:leading-loose">

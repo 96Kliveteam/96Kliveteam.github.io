@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import { BiShow } from "react-icons/bi";
 import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
 
@@ -86,10 +87,29 @@ export default {
             'text-shadow': '0 0 30px #edff4d',
             'filter': 'brightness(1.5)' 
           },
+        },
+        h: {
+          'from': { 
+            'height': '100%',
+          },
+          'to' : { 
+            'height': '0%',
+          },
+        },
+        show: {
+          'from': { 
+            'filter': 'brightness(0)'
+          },
+          'to' : { 
+            'opacity': '100',
+            'filter': 'brightness(1.5)'
+          },
         }
       },
       animation: {
         glow: 'glow 2s ease-in-out infinite alternate',
+        h: 'h 1.5s linear 0.5s',
+        show: 'show 2.5s linear 0.5s'
       }
     },
   },
