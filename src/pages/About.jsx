@@ -82,7 +82,7 @@ const About = () => {
                         {about_OurPeople.map((item, index) => {
                             return (
                                 <Card key={index}>
-                                    <div className='md:h-64'>
+                                    <div className='md:h-64 xl:h-80'>
                                         <img src={item.imgAvatar} alt="" className='rounded-md h-full w-full object-cover object-[0_25%]' />
                                     </div>
                                     <div className='p-5'>
