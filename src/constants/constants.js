@@ -327,7 +327,7 @@ export const service_Logo = [
 export const contact = {
     address: '891/107/15 Đ. Nguyễn Kiệm, Phường 3, Gò Vấp, Thành phố Hồ Chí Minh 70000',
     email: '96kliveteam.co@gmail.com',
-    mobileNo: '+44 (0)121 740 0022',
+    mobileNo: '+84 938807484',
     socials: [{
         link: 'https://www.facebook.com/96KLiveTeam/',
         icon: <FaFacebookF />
