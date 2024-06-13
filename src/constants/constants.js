@@ -27,7 +27,8 @@ import logo_4ImgUrl from '../assets/digico.png'
 import logo_5ImgUrl from '../assets/midas.png'
 import logo_6ImgUrl from '../assets/Shure+logo+square.png'
 //Footer
-import footerImgUrl from '../assets/Copy of WALL.png'
+import footerLogoImgUrl from '../assets/Copy of WALL.png'
+import footerShortLogoImgUrl from '../assets/Copy of LOGO.PNG'
 
 
 import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube, FaEnvelope } from "react-icons/fa6";
@@ -72,7 +73,8 @@ export const footer = {
         link: 'mailto:96kliveteam.co@gmail.com',
         icon: <FaEnvelope />
     }],
-    logoUrl: footerImgUrl,
+    shortLogoImgUrl: footerShortLogoImgUrl,
+    logoImgUrl: footerLogoImgUrl,
     navItems: [{
         title: 'About us',
         link: '/about'
