@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c396f7e3.css",
-    "main.js": "/static/js/main.8d163129.js",
+    "main.css": "/static/css/main.01d0864b.css",
+    "main.js": "/static/js/main.1a5b2061.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/IMG_7668.jpg": "/static/media/IMG_7668.f87ed2a44134586ed41d.jpg",
     "static/media/IMG_0301.jpg": "/static/media/IMG_0301.c3972375d9ff9be147e9.jpg",
@@ -16,6 +16,7 @@
     "static/media/LFIss2.jpeg": "/static/media/LFIss2.7e0b744cb195ec24e9b2.jpeg",
     "static/media/CHHTOUR.jpg": "/static/media/CHHTOUR.32df200cbbda808ea8f9.jpg",
     "static/media/Long.jpg": "/static/media/Long.d642f7160819f073dd61.jpg",
+    "static/media/Copy of LOGO.PNG": "/static/media/Copy of LOGO.bc4a6b9d000dda8bab25.PNG",
     "static/media/short-logo.PNG": "/static/media/short-logo.bc4a6b9d000dda8bab25.PNG",
     "static/media/IMG_7656.JPG": "/static/media/IMG_7656.b44d24c48f2f4a9a27b4.JPG",
     "static/media/IMG_4919.PNG": "/static/media/IMG_4919.b806c7a69f275d277915.PNG",
@@ -29,12 +30,12 @@
     "static/media/Sennheiser.png": "/static/media/Sennheiser.f4c7328da9dd1f835113.png",
     "static/media/nexo.webp": "/static/media/nexo.68f422c038e411b8709a.webp",
     "index.html": "/index.html",
-    "main.c396f7e3.css.map": "/static/css/main.c396f7e3.css.map",
-    "main.8d163129.js.map": "/static/js/main.8d163129.js.map",
+    "main.01d0864b.css.map": "/static/css/main.01d0864b.css.map",
+    "main.1a5b2061.js.map": "/static/js/main.1a5b2061.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c396f7e3.css",
-    "static/js/main.8d163129.js"
+    "static/css/main.01d0864b.css",
+    "static/js/main.1a5b2061.js"
   ]
 }
