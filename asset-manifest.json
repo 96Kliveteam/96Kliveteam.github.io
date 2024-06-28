@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.01d0864b.css",
-    "main.js": "/static/js/main.d431ce96.js",
+    "main.js": "/static/js/main.5b0e1444.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/ACTS.jpeg": "/static/media/ACTS.1af2668a5061c58f9776.jpeg",
     "static/media/Nexo Geo.jpeg": "/static/media/Nexo Geo.cfa03721208d866c06b4.jpeg",
@@ -11,15 +11,15 @@
     "static/media/IMG_00182.jpg": "/static/media/IMG_00182.b1c2b5d0cf1df1f5fb45.jpg",
     "static/media/IMG_3478.jpg": "/static/media/IMG_3478.b90171dacbfcba5105eb.jpg",
     "static/media/FullSizeRender.jpg": "/static/media/FullSizeRender.e1c8d796a7101f29f649.jpg",
-    "static/media/IMG_6205.JPG": "/static/media/IMG_6205.ce6a802138dd0f578e28.JPG",
-    "static/media/IMG_2321-05.JPG": "/static/media/IMG_2321-05.0b3199687aab4737ca20.JPG",
+    "static/media/IMG_6205.jpg": "/static/media/IMG_6205.ce6a802138dd0f578e28.jpg",
+    "static/media/IMG_2321-05.jpg": "/static/media/IMG_2321-05.0b3199687aab4737ca20.jpg",
     "static/media/IMG_5548.jpg": "/static/media/IMG_5548.d022f31a231cdf3f2fe0.jpg",
     "static/media/CHHTOUR.jpg": "/static/media/CHHTOUR.8d668dcbc183b1270641.jpg",
-    "static/media/Copy of LOGO.PNG": "/static/media/Copy of LOGO.f5fbff761950cd2e47c1.PNG",
-    "static/media/short-logo.PNG": "/static/media/short-logo.d5f6781ca546ecf1fb53.PNG",
+    "static/media/Copy of LOGO.png": "/static/media/Copy of LOGO.f5fbff761950cd2e47c1.png",
+    "static/media/short-logo.png": "/static/media/short-logo.d5f6781ca546ecf1fb53.png",
     "static/media/Long.jpg": "/static/media/Long.ddf4df3f1b4436539caa.jpg",
-    "static/media/IMG_4919.PNG": "/static/media/IMG_4919.858e66c7dd503b58ac68.PNG",
-    "static/media/IMG_7656.JPG": "/static/media/IMG_7656.3cadc968dac5ef9fc321.JPG",
+    "static/media/IMG_4919.png": "/static/media/IMG_4919.858e66c7dd503b58ac68.png",
+    "static/media/IMG_7656.jpg": "/static/media/IMG_7656.3cadc968dac5ef9fc321.jpg",
     "static/media/Behringer-Logo.jpg": "/static/media/Behringer-Logo.6897254211b8daaed28f.jpg",
     "static/media/TODss3.jpeg": "/static/media/TODss3.c6d36ef53afbc9a89c4e.jpeg",
     "static/media/MAY.jpeg": "/static/media/MAY.fd200f614470406b6dd9.jpeg",
@@ -30,11 +30,11 @@
     "static/media/nexo.webp": "/static/media/nexo.68f422c038e411b8709a.webp",
     "index.html": "/index.html",
     "main.01d0864b.css.map": "/static/css/main.01d0864b.css.map",
-    "main.d431ce96.js.map": "/static/js/main.d431ce96.js.map",
+    "main.5b0e1444.js.map": "/static/js/main.5b0e1444.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01d0864b.css",
-    "static/js/main.d431ce96.js"
+    "static/js/main.5b0e1444.js"
   ]
 }
