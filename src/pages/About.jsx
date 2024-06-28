@@ -1,6 +1,6 @@
 
 import Header from '../Components/Header'
-import bacgroundImageUrl from '../assets/IMG_4919.PNG'
+import bacgroundImageUrl from '../assets/IMG_4919.png'
 import { about_OurPeople, about_Sliders, about_WhoWeAre, about_WhatWeDo } from '../constants/constants'
 import Section from '../Components/Section'
 import Carousel from '../Components/Carousel'

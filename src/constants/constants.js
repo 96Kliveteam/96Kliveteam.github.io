@@ -1,16 +1,16 @@
 //Home
 import serviceImgUrl_1 from '../assets/Nexo Geo.jpeg'
 import serviceImgUrl_2 from '../assets/ACTS.jpeg'
-import serviceImgUrl_3 from '../assets/IMG_4919.PNG'
+import serviceImgUrl_3 from '../assets/IMG_4919.png'
 import aboutImgUrl from '../assets/FullSizeRender.jpg'
 
 //About
 import whatWeDoImgUrl from '../assets/ACTS.jpeg'
-import whatWeDo_2ImgUrl from '../assets/IMG_6205.JPG'
+import whatWeDo_2ImgUrl from '../assets/IMG_6205.jpg'
 import whatWeDo_3ImgUrl from '../assets/MAY.jpeg'
 import whoWeAre_ImgUrl from '../assets/LFIss2.jpeg'
 import ourPeople_ImgUrl from '../assets/IMG_7668.jpg'
-import ourPeople_2ImgUrl from '../assets/IMG_2321-05.JPG'
+import ourPeople_2ImgUrl from '../assets/IMG_2321-05.jpg'
 import ourPeople_3ImgUrl from '../assets/Long.jpg'
 
 //Service
@@ -18,7 +18,7 @@ import hireService_ImgUrl from '../assets/IMG_3478.jpg'
 import hireService_2ImgUrl from '../assets/IMG_0301.jpg'
 import hireService_3ImgUrl from '../assets/Nexo Geo.jpeg'
 import hireStockService_ImgUrl from '../assets/IMG_00182.jpg'
-import hireStockService_2ImgUrl from '../assets/IMG_7656.JPG'
+import hireStockService_2ImgUrl from '../assets/IMG_7656.jpg'
 import hireStockService_3ImgUrl from '../assets/IMG_5548.jpg'
 import logo_ImgUrl from '../assets/Behringer-Logo.jpg'
 import logo_2ImgUrl from '../assets/Sennheiser.png'
@@ -28,7 +28,7 @@ import logo_5ImgUrl from '../assets/midas.png'
 import logo_6ImgUrl from '../assets/Shure+logo+square.png'
 //Footer
 import footerLogoImgUrl from '../assets/Copy of WALL.png'
-import footerShortLogoImgUrl from '../assets/Copy of LOGO.PNG'
+import footerShortLogoImgUrl from '../assets/Copy of LOGO.png'
 
 
 import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube, FaEnvelope } from "react-icons/fa6";

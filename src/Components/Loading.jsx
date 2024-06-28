@@ -1,4 +1,4 @@
-import logo from '../assets/short-logo.PNG'
+import logo from '../assets/short-logo.png'
 
 const Loading = ({ children, loading }) => {
     return loading ? (
